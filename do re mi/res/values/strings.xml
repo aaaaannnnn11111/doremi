@@ -11,6 +11,7 @@
     <string name="tab_re">唻</string>
     <string name="tab_mi">咪</string>
     <string name="tab_person">个人中心</string>
+    <string name="setting_about_description">开启音乐公益之旅</string>
   
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
