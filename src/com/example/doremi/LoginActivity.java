@@ -20,7 +20,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-
 public class LoginActivity extends Activity {
 	public static SQLiteDatabase db; 
 	EditText username;
@@ -69,15 +68,6 @@ public class LoginActivity extends Activity {
 	    actionBar.setDisplayHomeAsUpEnabled(true);  
 	}
 	
-	
-
-	
-	
-		
-		
-	
-	
-	 
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
