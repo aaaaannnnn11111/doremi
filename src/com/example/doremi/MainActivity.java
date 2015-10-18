@@ -5,12 +5,12 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.doremi.ChangeColorIconWithTextView;
 import com.example.doremi.R;
 import com.example.doremi.fragment.DoFragment;
 import com.example.doremi.fragment.MiFragment;
 import com.example.doremi.fragment.PersonFragment;
 import com.example.doremi.fragment.ReFragment;
+import com.example.doremi.view.ChangeColorIconWithTextView;
 
 import android.annotation.SuppressLint;
 import android.app.ActionBar;

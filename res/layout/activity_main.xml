@@ -20,7 +20,7 @@
         android:background="@drawable/tabbg"
         android:orientation="horizontal" >
 
-     <com.example.doremi.ChangeColorIconWithTextView
+     <com.example.doremi.view.ChangeColorIconWithTextView
             android:id="@+id/id_indicator_one"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
@@ -30,7 +30,7 @@
             example:text="@string/tab_do"
             example:text_size="12sp" />
 
-       <com.example.doremi.ChangeColorIconWithTextView
+       <com.example.doremi.view.ChangeColorIconWithTextView
             android:id="@+id/id_indicator_two"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
@@ -40,7 +40,7 @@
             example:text="@string/tab_re"
             example:text_size="12sp" />
 
-       <com.example.doremi.ChangeColorIconWithTextView
+       <com.example.doremi.view.ChangeColorIconWithTextView
             android:id="@+id/id_indicator_three"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
@@ -50,7 +50,7 @@
             example:text="@string/tab_mi"
             example:text_size="12sp" />
 
-        <com.example.doremi.ChangeColorIconWithTextView
+        <com.example.doremi.view.ChangeColorIconWithTextView
             android:id="@+id/id_indicator_four"
             android:layout_width="0dp"
             android:layout_height="fill_parent"

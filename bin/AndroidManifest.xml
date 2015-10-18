@@ -24,11 +24,27 @@
         </activity>
         <activity
             android:name=".LoginActivity"
-            android:label="登录"   >
+            android:label="登录" >
         </activity>
         <activity
             android:name=".RegisterActivity"
             android:label="注册" >
+        </activity>
+        <activity
+            android:name="com.example.doremi.person.CollectionActivity"
+            android:label="@string/title_activity_collection" >
+        </activity>
+        <activity
+            android:name="com.example.doremi.person.DownloadActivity"
+            android:label="@string/title_activity_download" >
+        </activity>
+        <activity
+            android:name="com.example.doremi.person.TeamActivity"
+            android:label="@string/title_activity_team" >
+        </activity>
+        <activity
+            android:name="com.example.doremi.person.DonateActivity"
+            android:label="@string/title_activity_donate" >
         </activity>
     </application>
 
