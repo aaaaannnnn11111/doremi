@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">哆唻咪</string>
+    <string name="action_search">搜索</string>
+    <string name="action_share">分享</string>
+    <string name="action_collection">收藏</string>
+    <string name="action_settings">设置</string>
+    <string name="action_feed">客户反馈</string>
+    <string name="tab_do">哆</string>
+    <string name="tab_re">唻</string>
+    <string name="tab_mi">咪</string>
+    <string name="tab_person">个人中心</string>
+  
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+
+</resources>
