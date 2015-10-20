@@ -11,8 +11,12 @@
     <string name="tab_re">唻</string>
     <string name="tab_mi">咪</string>
     <string name="tab_person">个人中心</string>
-  
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_collection">CollectionActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="title_activity_team">TeamActivity</string>
+    <string name="title_activity_donate">DonateActivity</string>
 
 </resources>

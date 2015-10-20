@@ -1,4 +1,7 @@
-package com.example.doremi;
+package com.example.doremi.view;
+
+import com.example.doremi.R;
+import com.example.doremi.R.styleable;
 
 import android.content.Context;
 import android.content.res.TypedArray;
