@@ -81,17 +81,18 @@ containing a value of this type.
         public static final int heart=0x7f020006;
         public static final int ic_launcher=0x7f020007;
         public static final int lili=0x7f020008;
-        public static final int mi=0x7f020009;
-        public static final int mi1=0x7f02000a;
-        public static final int person=0x7f02000b;
-        public static final int plus=0x7f02000c;
-        public static final int re=0x7f02000d;
-        public static final int re1=0x7f02000e;
-        public static final int search=0x7f02000f;
-        public static final int tabbg=0x7f020010;
-        public static final int view_split=0x7f020011;
-        public static final int white=0x7f020012;
-        public static final int yellow=0x7f020013;
+        public static final int logo=0x7f020009;
+        public static final int mi=0x7f02000a;
+        public static final int mi1=0x7f02000b;
+        public static final int person=0x7f02000c;
+        public static final int plus=0x7f02000d;
+        public static final int re=0x7f02000e;
+        public static final int re1=0x7f02000f;
+        public static final int search=0x7f020010;
+        public static final int tabbg=0x7f020011;
+        public static final int view_split=0x7f020012;
+        public static final int white=0x7f020013;
+        public static final int yellow=0x7f020014;
     }
     public static final class id {
         public static final int action_collection=0x7f080029;
@@ -145,12 +146,14 @@ containing a value of this type.
         public static final int activity_login=0x7f030003;
         public static final int activity_main=0x7f030004;
         public static final int activity_register=0x7f030005;
-        public static final int activity_team=0x7f030006;
-        public static final int do_layout=0x7f030007;
-        public static final int list_item=0x7f030008;
-        public static final int mi_layout=0x7f030009;
-        public static final int person_layout=0x7f03000a;
-        public static final int re_layout=0x7f03000b;
+        public static final int activity_setting=0x7f030006;
+        public static final int activity_start=0x7f030007;
+        public static final int activity_team=0x7f030008;
+        public static final int do_layout=0x7f030009;
+        public static final int list_item=0x7f03000a;
+        public static final int mi_layout=0x7f03000b;
+        public static final int person_layout=0x7f03000c;
+        public static final int re_layout=0x7f03000d;
     }
     public static final class menu {
         public static final int collection=0x7f070000;
@@ -159,7 +162,9 @@ containing a value of this type.
         public static final int login=0x7f070003;
         public static final int main=0x7f070004;
         public static final int register=0x7f070005;
-        public static final int team=0x7f070006;
+        public static final int setting=0x7f070006;
+        public static final int start=0x7f070007;
+        public static final int team=0x7f070008;
     }
     public static final class string {
         public static final int action_collection=0x7f050003;
@@ -178,6 +183,7 @@ containing a value of this type.
         public static final int title_activity_download=0x7f05000e;
         public static final int title_activity_login=0x7f05000a;
         public static final int title_activity_register=0x7f05000b;
+        public static final int title_activity_setting=0x7f050011;
         public static final int title_activity_team=0x7f05000f;
     }
     public static final class style {
