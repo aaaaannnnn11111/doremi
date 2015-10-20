@@ -32,7 +32,7 @@ public class PersonFragment extends ListFragment {
 	private ListView list;
 	private Button login_button;
 	private String[] values = new String[] { "我的收藏","我的下载","我的团队","我的捐款" };  
-	private int[] images = new int[] { R.drawable.dooo,  R.drawable.dooo, R.drawable.dooo,R.drawable.dooo }; 
+	private int[] images = new int[] { R.drawable.person,  R.drawable.person, R.drawable.person,R.drawable.person }; 
     
     
     

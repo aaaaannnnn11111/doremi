@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.example.doremi.R;
+import com.example.doremi.actionbar.SettingActivity;
 import com.example.doremi.fragment.DoFragment;
 import com.example.doremi.fragment.MiFragment;
 import com.example.doremi.fragment.PersonFragment;
@@ -270,9 +271,25 @@ OnPageChangeListener, OnClickListener {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
-		int id = item.getItemId();
-		if (id == R.id.action_settings) {
-			return true;
+			switch (item.getItemId())
+			{
+			case R.id.action_search:
+				break;
+			case R.id.action_share:
+				
+				break;
+			case R.id.action_collection:
+				break;
+			case R.id.action_settings:
+				
+				Intent intent=new Intent(this,SettingActivity.class);
+				startActivity(intent);
+				break;
+				
+            case R.id.action_feed:
+				break;
+				
+			
 		}
 		return super.onOptionsItemSelected(item);
 	}
