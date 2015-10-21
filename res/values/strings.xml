@@ -7,17 +7,28 @@
     <string name="action_collection">收藏</string>
     <string name="action_settings">设置</string>
     <string name="action_feed">客户反馈</string>
+    <string name="hello_world">hello world!</string>
     <string name="tab_do">哆</string>
     <string name="tab_re">唻</string>
     <string name="tab_mi">咪</string>
     <string name="tab_person">个人中心</string>
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="title_activity_register">RegisterActivity</string>
-    <string name="title_activity_collection">CollectionActivity</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="title_activity_download">DownloadActivity</string>
-    <string name="title_activity_team">TeamActivity</string>
-    <string name="title_activity_donate">DonateActivity</string>
-    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_register">注册</string>
+    <string name="title_activity_collection">我的收藏</string>
+    <string name="title_activity_download">我的下载</string>
+    <string name="title_activity_team">我的团队</string>
+    <string name="title_activity_donate">我的捐款</string>
+    <string name="title_activity_setting">用户设置</string>
+    <string name="title_activity_feedback">用户反馈</string>
+
+    <!-- FeedBack Start -->
+    <string name="feedbackhits">请输入您的意见和建议</string>
+    <string name="feedback_send_toolong_error">发送的反馈信息不允许大于150个中文字！</string>
+    <string name="feedback_def_title">默认反馈信息标题</string>
+    <string name="mood_pointting">正在定位...</string>
+
+    <!-- FeedBack End -->
+
+    <string name="title_activity_about">AboutActivity</string>
 
 </resources>

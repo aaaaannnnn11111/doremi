@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.example.doremi.R;
+import com.example.doremi.actionbar.FeedbackActivity;
 import com.example.doremi.actionbar.SettingActivity;
 import com.example.doremi.fragment.DoFragment;
 import com.example.doremi.fragment.MiFragment;
@@ -282,11 +283,13 @@ OnPageChangeListener, OnClickListener {
 				break;
 			case R.id.action_settings:
 				
-				Intent intent=new Intent(this,SettingActivity.class);
-				startActivity(intent);
+				Intent intent2=new Intent(this,SettingActivity.class);
+				startActivity(intent2);
 				break;
 				
             case R.id.action_feed:
+            	Intent intent3=new Intent(this,FeedbackActivity.class);
+				startActivity(intent3);
 				break;
 				
 			
