@@ -7,16 +7,30 @@ import com.example.doremi.R.menu;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.preference.CheckBoxPreference;
 import android.preference.PreferenceActivity;
+import android.preference.PreferenceScreen;
 import android.view.Menu;
 import android.view.MenuItem;
 
 public class SettingActivity extends PreferenceActivity {
+	
+	private CheckBoxPreference soundPreference;         
+	private PreferenceScreen servicePreference;     
+	private PreferenceScreen cleanPreference;       
+    private PreferenceScreen newVersionPreference;
+    private PreferenceScreen aboutPreference;
    
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_setting);
+		
+		soundPreference = (CheckBoxPreference) findPreference("apply_wifi");  
+		servicePreference = (CheckBoxPreference) findPreference("apply_internet");  
+		cleanPreference = (ListPreference) findPreference("depart_value");  
+		newVersionPreference = (EditTextPreference) findPreference("number_edit");  
+		aboutPreference = (Preference) findPreference("wifi_setting");
 	}
 
 	@Override
