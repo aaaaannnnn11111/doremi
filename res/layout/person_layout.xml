@@ -28,7 +28,7 @@
             android:layout_centerVertical="true"
             android:layout_marginLeft="58dp"
             android:padding="3dip"
-            android:src="@drawable/dooo" />
+            android:src="@drawable/person" />
     </RelativeLayout>
 
     <LinearLayout
