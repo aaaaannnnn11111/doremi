@@ -26,11 +26,11 @@ public class SettingActivity extends PreferenceActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_setting);
 		
-		soundPreference = (CheckBoxPreference) findPreference("apply_wifi");  
-		servicePreference = (CheckBoxPreference) findPreference("apply_internet");  
-		cleanPreference = (ListPreference) findPreference("depart_value");  
-		newVersionPreference = (EditTextPreference) findPreference("number_edit");  
-		aboutPreference = (Preference) findPreference("wifi_setting");
+		soundPreference = (CheckBoxPreference) findPreference("CheckBox1");  
+		servicePreference = (PreferenceScreen) findPreference("service");  
+		cleanPreference = (PreferenceScreen) findPreference("clean");  
+		newVersionPreference = (PreferenceScreen) findPreference("newVersion");  
+		aboutPreference = (PreferenceScreen) findPreference("about");
 	}
 
 	@Override
