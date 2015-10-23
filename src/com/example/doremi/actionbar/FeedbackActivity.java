@@ -7,36 +7,21 @@ import com.example.doremi.R.menu;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.preference.CheckBoxPreference;
-import android.preference.PreferenceActivity;
-import android.preference.PreferenceScreen;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class SettingActivity extends PreferenceActivity {
-	
-	private CheckBoxPreference soundPreference;         
-	private PreferenceScreen servicePreference;     
-	private PreferenceScreen cleanPreference;       
-    private PreferenceScreen newVersionPreference;
-    private PreferenceScreen aboutPreference;
-   
+public class FeedbackActivity extends Activity {
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_setting);
-		
-		soundPreference = (CheckBoxPreference) findPreference("CheckBox1");  
-		servicePreference = (PreferenceScreen) findPreference("service");  
-		cleanPreference = (PreferenceScreen) findPreference("clean");  
-		newVersionPreference = (PreferenceScreen) findPreference("newVersion");  
-		aboutPreference = (PreferenceScreen) findPreference("about");
+		setContentView(R.layout.activity_feedback);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.setting, menu);
+		getMenuInflater().inflate(R.menu.feedback, menu);
 		return true;
 	}
 
