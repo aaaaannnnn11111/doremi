@@ -98,22 +98,22 @@ containing a value of this type.
         public static final int yellow=0x7f020017;
     }
     public static final class id {
-        public static final int action_collection=0x7f09002e;
-        public static final int action_feed=0x7f09002f;
-        public static final int action_search=0x7f09002c;
-        public static final int action_settings=0x7f09002b;
-        public static final int action_share=0x7f09002d;
+        public static final int action_collection=0x7f090030;
+        public static final int action_feed=0x7f090031;
+        public static final int action_search=0x7f09002e;
+        public static final int action_settings=0x7f09002d;
+        public static final int action_share=0x7f09002f;
         public static final int addmood_content=0x7f090000;
         public static final int addmood_count=0x7f090002;
         public static final int addmood_poi_place=0x7f090001;
+        public static final int applyClass_button=0x7f090029;
+        public static final int apply_button=0x7f090028;
         public static final int autoLogin=0x7f090008;
         public static final int bg=0x7f090026;
         public static final int bottom_layout=0x7f090012;
         public static final int button1=0x7f09000f;
         public static final int button2=0x7f090010;
-        public static final int button3=0x7f090028;
-        public static final int button4=0x7f090029;
-        public static final int button5=0x7f09002a;
+        public static final int chain_button=0x7f09002a;
         public static final int head=0x7f090009;
         public static final int id_activity_lactivity_loginogin=0x7f090003;
         public static final int id_do_layout=0x7f090020;
@@ -126,6 +126,7 @@ containing a value of this type.
         public static final int id_viewpager=0x7f090011;
         public static final int item_icon=0x7f090022;
         public static final int item_text=0x7f090023;
+        public static final int join_button=0x7f09002b;
         public static final int linearLayout1=0x7f090006;
         public static final int linearLayout2=0x7f090018;
         public static final int list_item=0x7f090021;
@@ -133,6 +134,7 @@ containing a value of this type.
         public static final int loginSet=0x7f090004;
         public static final int login_button=0x7f090027;
         public static final int login_submit=0x7f090007;
+        public static final int music_button=0x7f09002c;
         public static final int password=0x7f09000c;
         public static final int rbMale=0x7f09001e;
         public static final int rbfaMale=0x7f09001f;
@@ -149,34 +151,36 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
-        public static final int activity_collection=0x7f030001;
-        public static final int activity_donate=0x7f030002;
-        public static final int activity_download=0x7f030003;
-        public static final int activity_feedback=0x7f030004;
-        public static final int activity_login=0x7f030005;
-        public static final int activity_main=0x7f030006;
-        public static final int activity_register=0x7f030007;
-        public static final int activity_service=0x7f030008;
-        public static final int activity_start=0x7f030009;
-        public static final int activity_team=0x7f03000a;
-        public static final int do_layout=0x7f03000b;
-        public static final int list_item=0x7f03000c;
-        public static final int mi_layout=0x7f03000d;
-        public static final int person_layout=0x7f03000e;
-        public static final int re_layout=0x7f03000f;
+        public static final int activity_apply=0x7f030001;
+        public static final int activity_collection=0x7f030002;
+        public static final int activity_donate=0x7f030003;
+        public static final int activity_download=0x7f030004;
+        public static final int activity_feedback=0x7f030005;
+        public static final int activity_login=0x7f030006;
+        public static final int activity_main=0x7f030007;
+        public static final int activity_register=0x7f030008;
+        public static final int activity_service=0x7f030009;
+        public static final int activity_start=0x7f03000a;
+        public static final int activity_team=0x7f03000b;
+        public static final int do_layout=0x7f03000c;
+        public static final int list_item=0x7f03000d;
+        public static final int mi_layout=0x7f03000e;
+        public static final int person_layout=0x7f03000f;
+        public static final int re_layout=0x7f030010;
     }
     public static final class menu {
         public static final int about=0x7f080000;
-        public static final int collection=0x7f080001;
-        public static final int donate=0x7f080002;
-        public static final int download=0x7f080003;
-        public static final int feedback=0x7f080004;
-        public static final int login=0x7f080005;
-        public static final int main=0x7f080006;
-        public static final int register=0x7f080007;
-        public static final int setting=0x7f080008;
-        public static final int start=0x7f080009;
-        public static final int team=0x7f08000a;
+        public static final int apply=0x7f080001;
+        public static final int collection=0x7f080002;
+        public static final int donate=0x7f080003;
+        public static final int download=0x7f080004;
+        public static final int feedback=0x7f080005;
+        public static final int login=0x7f080006;
+        public static final int main=0x7f080007;
+        public static final int register=0x7f080008;
+        public static final int setting=0x7f080009;
+        public static final int start=0x7f08000a;
+        public static final int team=0x7f08000b;
     }
     public static final class string {
         public static final int action_collection=0x7f060003;
@@ -199,6 +203,7 @@ containing a value of this type.
         /**  FeedBack End 
          */
         public static final int title_activity_about=0x7f060017;
+        public static final int title_activity_apply=0x7f060019;
         public static final int title_activity_collection=0x7f06000d;
         public static final int title_activity_donate=0x7f060010;
         public static final int title_activity_download=0x7f06000e;

@@ -71,6 +71,10 @@
             android:name=".AboutActivity"
             android:label="@string/title_activity_about" >
         </activity>
+        <activity
+            android:name="com.example.doremi.re.ApplyActivity"
+            android:label="@string/title_activity_apply" >
+        </activity>
     </application>
 
 </manifest>
