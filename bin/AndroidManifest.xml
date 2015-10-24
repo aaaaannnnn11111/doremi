@@ -52,12 +52,20 @@
             android:label="@string/title_activity_donate" >
         </activity>
         <activity
-            android:name=".actionbar.SettingActivity"
+            android:name=".SettingActivity"
             android:label="@string/title_activity_setting" >
         </activity>
         <activity
             android:name=".actionbar.FeedbackActivity"
             android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name="com.example.a.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".ServiceActivity"
+            android:label="@string/title_activity_service" >
         </activity>
         <activity
             android:name=".AboutActivity"

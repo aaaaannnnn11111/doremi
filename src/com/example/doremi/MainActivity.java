@@ -7,7 +7,6 @@ import java.util.List;
 
 import com.example.doremi.R;
 import com.example.doremi.actionbar.FeedbackActivity;
-import com.example.doremi.actionbar.SettingActivity;
 import com.example.doremi.fragment.DoFragment;
 import com.example.doremi.fragment.MiFragment;
 import com.example.doremi.fragment.PersonFragment;

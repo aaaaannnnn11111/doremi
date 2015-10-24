@@ -25,6 +25,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
@@ -70,8 +71,8 @@ public class PersonFragment extends ListFragment {
 	        SimpleAdapter adapter = new SimpleAdapter(getActivity(), listItems,  
 	                R.layout.list_item, new String[] { "values", "images" },  
 	                new int[] { R.id.item_text, R.id.item_icon });  
-	        setListAdapter(adapter);  
-	  
+	        setListAdapter(adapter);   
+            
 	    } 
 
 		 
