@@ -5,7 +5,9 @@ import com.example.doremi.db.UserService;
 
 import android.app.ActionBar;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.sqlite.SQLiteDatabase;
 
 import android.os.Bundle;
@@ -16,14 +18,18 @@ import android.view.View;
 import android.view.View.OnClickListener;
 
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
 
 public class LoginActivity extends Activity {
-	public static SQLiteDatabase db; 
-	EditText username;
-	EditText password;
+	
+	private EditText username;
+	private EditText password;
+	private CheckBox rememberPassword;
+	private CheckBox autoLogin;
+	private SharedPreferences sp;
 	
 	
 
@@ -31,11 +37,14 @@ public class LoginActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_login);
+		
 		Button login_button=(Button) findViewById(R.id.login_submit);
 		Button register_button = (Button) findViewById(R.id.button1);
 		Button forget_button = (Button) findViewById(R.id.button2);
 		username=(EditText) findViewById(R.id.username);
 		password=(EditText) findViewById(R.id.password);
+		rememberPassword=(CheckBox) findViewById(R.id.rememberPassword);
+		autoLogin=(CheckBox) findViewById(R.id.autoLogin);
 		
 		register_button.setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {		
