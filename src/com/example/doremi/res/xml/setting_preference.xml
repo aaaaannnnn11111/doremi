@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <PreferenceCategory android:title="音效设置"> 
+        <CheckBoxPreference android:key="sound" android:title="声音" android:summaryOn="开启" android:defaultValue="true" />     
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="功能设置">	
+        <PreferenceScreen 
+            android:key="service" 
+            android:title="在线客服" > 
+            <intent android:targetPackage="com.example.doremi" android:targetClass="com.example.doremi.ServiceActivity" /> 
+            </PreferenceScreen>     
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="缓存设置" >  
+        <Preference android:key="clean" 
+            android:title="清除缓存">
+        </Preference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="其他设置">
+        <Preference android:key="newVersion" 
+            android:title="新版本检测"  
+         android:summary="检测是否有新版本">
+        </Preference>
+ 
+        <PreferenceScreen android:key="about" 
+            android:title="关于我们"  
+        android:summary="关于我们、版权信息">
+            <intent android:targetPackage="com.example.doremi" android:targetClass="com.example.doremi.AboutActivity" />
+        </PreferenceScreen>
+         <Preference android:key="exit" 
+            android:title="退出当前账号"  >
+        </Preference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>
