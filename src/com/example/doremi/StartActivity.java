@@ -1,10 +1,10 @@
 package com.example.doremi;
 
-import java.util.Timer;
-import java.util.TimerTask;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,51 +13,51 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class StartActivity extends Activity {
-	private final int SPLASH_DISPLAY_LENGHT = 2000; //延迟三秒 
+	private final int SPLASH_DISPLAY_LENGHT = 2000; //延迟两秒 
+	
+	private SharedPreferences preferences;
+
 	 
     @Override
     public void onCreate(Bundle savedInstanceState) { 
         super.onCreate(savedInstanceState); 
         setContentView(R.layout.activity_start); 
         getActionBar().hide();
+        
+       preferences = getSharedPreferences("count",MODE_WORLD_READABLE); 
+        int count = preferences.getInt("count", 0);  
+        
         new Handler().postDelayed(new Runnable(){ 
- 
-         @Override
-         public void run() { 
-             Intent mainIntent = new Intent(StartActivity.this,MainActivity.class); 
-             StartActivity.this.startActivity(mainIntent); 
-             StartActivity.this.finish(); 
-         } 
-             
-        }, SPLASH_DISPLAY_LENGHT); 
-    } 
+        	 
+            @Override
+            public void run() { 
+                Intent mainIntent = new Intent(StartActivity.this,MainActivity.class); 
+                StartActivity.this.startActivity(mainIntent); 
+                StartActivity.this.finish(); 
+            } 
+                
+           }, SPLASH_DISPLAY_LENGHT); 
+       
+         
+        //判断程序与第几次运行，如果是第一次运行则跳转到引导页面   
+        	
+        if (count == 0) {  
+        	Intent intent = new Intent(); 
+            intent.setClass(getApplicationContext(),StartActivity.class);  
+            startActivity(intent);  
+            this.finish();  
 
+        }
+        
+        Editor editor = preferences.edit();  
+        //存入数据    
+        editor.putInt("count", ++count);  
+        //提交修改    
+        editor.commit();
 
-  /* @Override   
-    public void onCreate(Bundle savedInstanceState) {    
-        super.onCreate(savedInstanceState);    
-        setContentView(R.layout.activity_start);   
-        getActionBar().hide();
-        final Intent it = new Intent(this, MainActivity.class); //你要转向的Activity   
+    }
+   
 
-		Timer timer = new Timer(); 
-
-		TimerTask task = new TimerTask() {  
-
-		    @Override  
-
-		    public void run() {   
-
-		    startActivity(it); //执行  
-           
-		     } 
-
-		 };
-
-		timer.schedule(task, 1000 * 2); //10秒后
-		
-      
-    }*/
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
