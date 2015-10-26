@@ -7,7 +7,7 @@ import java.util.List;
 
 import com.example.doremi.R;
 import com.example.doremi.actionbar.FeedbackActivity;
-import com.example.doremi.actionbar.SettingActivity;
+import com.example.doremi.db.UserService;
 import com.example.doremi.fragment.DoFragment;
 import com.example.doremi.fragment.MiFragment;
 import com.example.doremi.fragment.PersonFragment;
@@ -195,13 +195,20 @@ OnPageChangeListener, OnClickListener {
 			mTabIndicator.get(2).setIconAlpha(1.0f);
 			break;
 		case R.id.id_indicator_four:
+			check();
 			
 			mViewPager.setCurrentItem(PAGE_FOUR);
 			mTabIndicator.get(3).setIconAlpha(1.0f);
 			break;
 			
 		}
+		
 
+	}
+	private void check(){
+		UserService uService=new UserService(MainActivity.this);
+		
+		
 	}
 	
 	private void resetOtherTabs()

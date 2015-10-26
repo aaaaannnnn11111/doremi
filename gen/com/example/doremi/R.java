@@ -68,8 +68,8 @@ containing a value of this type.
          would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively).
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int addmood_poi_icon=0x7f020000;
@@ -98,113 +98,122 @@ containing a value of this type.
         public static final int yellow=0x7f020017;
     }
     public static final class id {
-        public static final int action_collection=0x7f08002c;
-        public static final int action_feed=0x7f08002d;
-        public static final int action_search=0x7f08002a;
-        public static final int action_settings=0x7f080029;
-        public static final int action_share=0x7f08002b;
-        public static final int addmood_content=0x7f080000;
-        public static final int addmood_count=0x7f080002;
-        public static final int addmood_poi_place=0x7f080001;
-        public static final int autoLogin=0x7f080008;
-        public static final int bg=0x7f080026;
-        public static final int bottom_layout=0x7f080012;
-        public static final int button1=0x7f08000f;
-        public static final int button2=0x7f080010;
-        public static final int head=0x7f080009;
-        public static final int id_activity_lactivity_loginogin=0x7f080003;
-        public static final int id_do_layout=0x7f080020;
-        public static final int id_indicator_four=0x7f080016;
-        public static final int id_indicator_one=0x7f080013;
-        public static final int id_indicator_three=0x7f080015;
-        public static final int id_indicator_two=0x7f080014;
-        public static final int id_mi_layout=0x7f080024;
-        public static final int id_person_layout=0x7f080025;
-        public static final int id_re_layout=0x7f080028;
-        public static final int id_viewpager=0x7f080011;
-        public static final int item_icon=0x7f080022;
-        public static final int item_text=0x7f080023;
-        public static final int linearLayout1=0x7f080006;
-        public static final int linearLayout2=0x7f080018;
-        public static final int list_item=0x7f080021;
-        public static final int loginInfo=0x7f08000a;
-        public static final int loginSet=0x7f080004;
-        public static final int login_button=0x7f080027;
-        public static final int login_submit=0x7f080007;
-        public static final int password=0x7f08000c;
-        public static final int rbMale=0x7f08001e;
-        public static final int rbfaMale=0x7f08001f;
-        public static final int rePassword=0x7f08001b;
-        public static final int registerInfo=0x7f080019;
-        public static final int registerSet=0x7f080017;
-        public static final int register_submit=0x7f08001c;
-        public static final int rememberPassword=0x7f080005;
-        public static final int sexRegister=0x7f08001d;
-        public static final int textView1=0x7f08000d;
-        public static final int textView2=0x7f08000e;
-        public static final int user=0x7f08001a;
-        public static final int username=0x7f08000b;
+        public static final int action_collection=0x7f090031;
+        public static final int action_feed=0x7f090032;
+        public static final int action_search=0x7f09002f;
+        public static final int action_settings=0x7f09002e;
+        public static final int action_share=0x7f090030;
+        public static final int addmood_content=0x7f090007;
+        public static final int addmood_count=0x7f090009;
+        public static final int addmood_poi_place=0x7f090008;
+        public static final int applyClass_button=0x7f09002a;
+        public static final int apply_button=0x7f090029;
+        public static final int autoLogin=0x7f09000f;
+        public static final int bg=0x7f090027;
+        public static final int bottom_layout=0x7f090018;
+        public static final int button1=0x7f090015;
+        public static final int button2=0x7f090016;
+        public static final int chain_button=0x7f09002b;
+        public static final int head=0x7f090001;
+        public static final int id_activity_lactivity_loginogin=0x7f09000a;
+        public static final int id_do_layout=0x7f090021;
+        public static final int id_indicator_four=0x7f09001c;
+        public static final int id_indicator_one=0x7f090019;
+        public static final int id_indicator_three=0x7f09001b;
+        public static final int id_indicator_two=0x7f09001a;
+        public static final int id_mi_layout=0x7f090025;
+        public static final int id_person_layout=0x7f090026;
+        public static final int id_viewpager=0x7f090017;
+        public static final int item_icon=0x7f090023;
+        public static final int item_text=0x7f090024;
+        public static final int join_button=0x7f09002c;
+        public static final int linearLayout1=0x7f09000d;
+        public static final int linearLayout2=0x7f090000;
+        public static final int linearLayout3=0x7f090003;
+        public static final int list_item=0x7f090022;
+        public static final int loginInfo=0x7f090010;
+        public static final int loginSet=0x7f09000b;
+        public static final int login_button=0x7f090028;
+        public static final int login_submit=0x7f09000e;
+        public static final int music_button=0x7f09002d;
+        public static final int password=0x7f090012;
+        public static final int rbMale=0x7f090005;
+        public static final int rbfaMale=0x7f090006;
+        public static final int rePassword=0x7f09001f;
+        public static final int registerInfo=0x7f090002;
+        public static final int registerSet=0x7f09001d;
+        public static final int register_submit=0x7f090020;
+        public static final int rememberPassword=0x7f09000c;
+        public static final int sexRegister=0x7f090004;
+        public static final int textView1=0x7f090013;
+        public static final int textView2=0x7f090014;
+        public static final int user=0x7f09001e;
+        public static final int username=0x7f090011;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
-        public static final int activity_collection=0x7f030001;
-        public static final int activity_donate=0x7f030002;
-        public static final int activity_download=0x7f030003;
-        public static final int activity_feedback=0x7f030004;
-        public static final int activity_login=0x7f030005;
-        public static final int activity_main=0x7f030006;
-        public static final int activity_register=0x7f030007;
-        public static final int activity_setting=0x7f030008;
-        public static final int activity_start=0x7f030009;
-        public static final int activity_team=0x7f03000a;
-        public static final int do_layout=0x7f03000b;
-        public static final int list_item=0x7f03000c;
-        public static final int mi_layout=0x7f03000d;
-        public static final int person_layout=0x7f03000e;
-        public static final int re_layout=0x7f03000f;
+        public static final int activity_apply=0x7f030001;
+        public static final int activity_collection=0x7f030002;
+        public static final int activity_donate=0x7f030003;
+        public static final int activity_download=0x7f030004;
+        public static final int activity_feedback=0x7f030005;
+        public static final int activity_login=0x7f030006;
+        public static final int activity_main=0x7f030007;
+        public static final int activity_register=0x7f030008;
+        public static final int activity_service=0x7f030009;
+        public static final int activity_start=0x7f03000a;
+        public static final int activity_team=0x7f03000b;
+        public static final int do_layout=0x7f03000c;
+        public static final int list_item=0x7f03000d;
+        public static final int mi_layout=0x7f03000e;
+        public static final int person_layout=0x7f03000f;
+        public static final int re_layout=0x7f030010;
     }
     public static final class menu {
-        public static final int about=0x7f070000;
-        public static final int collection=0x7f070001;
-        public static final int donate=0x7f070002;
-        public static final int download=0x7f070003;
-        public static final int feedback=0x7f070004;
-        public static final int login=0x7f070005;
-        public static final int main=0x7f070006;
-        public static final int register=0x7f070007;
-        public static final int setting=0x7f070008;
-        public static final int start=0x7f070009;
-        public static final int team=0x7f07000a;
+        public static final int about=0x7f080000;
+        public static final int apply=0x7f080001;
+        public static final int collection=0x7f080002;
+        public static final int donate=0x7f080003;
+        public static final int download=0x7f080004;
+        public static final int feedback=0x7f080005;
+        public static final int login=0x7f080006;
+        public static final int main=0x7f080007;
+        public static final int register=0x7f080008;
+        public static final int setting=0x7f080009;
+        public static final int start=0x7f08000a;
+        public static final int team=0x7f08000b;
     }
     public static final class string {
-        public static final int action_collection=0x7f050003;
-        public static final int action_feed=0x7f050005;
-        public static final int action_search=0x7f050001;
-        public static final int action_settings=0x7f050004;
-        public static final int action_share=0x7f050002;
-        public static final int app_name=0x7f050000;
-        public static final int feedback_def_title=0x7f050015;
-        public static final int feedback_send_toolong_error=0x7f050014;
+        public static final int action_collection=0x7f060003;
+        public static final int action_feed=0x7f060005;
+        public static final int action_search=0x7f060001;
+        public static final int action_settings=0x7f060004;
+        public static final int action_share=0x7f060002;
+        public static final int app_name=0x7f060000;
+        public static final int feedback_def_title=0x7f060015;
+        public static final int feedback_send_toolong_error=0x7f060014;
         /**  FeedBack Start 
          */
-        public static final int feedbackhits=0x7f050013;
-        public static final int hello_world=0x7f050006;
-        public static final int mood_pointting=0x7f050016;
-        public static final int tab_do=0x7f050007;
-        public static final int tab_mi=0x7f050009;
-        public static final int tab_person=0x7f05000a;
-        public static final int tab_re=0x7f050008;
+        public static final int feedbackhits=0x7f060013;
+        public static final int hello_world=0x7f060006;
+        public static final int mood_pointting=0x7f060016;
+        public static final int tab_do=0x7f060007;
+        public static final int tab_mi=0x7f060009;
+        public static final int tab_person=0x7f06000a;
+        public static final int tab_re=0x7f060008;
         /**  FeedBack End 
          */
-        public static final int title_activity_about=0x7f050017;
-        public static final int title_activity_collection=0x7f05000d;
-        public static final int title_activity_donate=0x7f050010;
-        public static final int title_activity_download=0x7f05000e;
-        public static final int title_activity_feedback=0x7f050012;
-        public static final int title_activity_login=0x7f05000b;
-        public static final int title_activity_register=0x7f05000c;
-        public static final int title_activity_setting=0x7f050011;
-        public static final int title_activity_team=0x7f05000f;
+        public static final int title_activity_about=0x7f060017;
+        public static final int title_activity_apply=0x7f060019;
+        public static final int title_activity_collection=0x7f06000d;
+        public static final int title_activity_donate=0x7f060010;
+        public static final int title_activity_download=0x7f06000e;
+        public static final int title_activity_feedback=0x7f060012;
+        public static final int title_activity_login=0x7f06000b;
+        public static final int title_activity_register=0x7f06000c;
+        public static final int title_activity_service=0x7f060018;
+        public static final int title_activity_setting=0x7f060011;
+        public static final int title_activity_team=0x7f06000f;
     }
     public static final class style {
         /** 
@@ -228,11 +237,14 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
+    }
+    public static final class xml {
+        public static final int setting_preference=0x7f040000;
     }
     public static final class styleable {
         /** Attributes that can be used with a ChangeColorIconView.

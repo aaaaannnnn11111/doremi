@@ -10,17 +10,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.login.LoginActivity" >
 
-    <!-- 相对布局，"记住密码"按钮和"自动登录"按钮 -->
+  
 
     <RelativeLayout
         android:id="@+id/loginSet"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" >
 
-        <!-- "记住密码"多选框，黑体字，左缩进5个像素，选中状态 -->
-        <!-- "自动登录"多选框，黑体字，右缩进5个像素，与"记住密码"按钮的顶部和右边对齐 -->
+       
+        
     </RelativeLayout>
-    <!-- "登录"按钮，重心垂直居中，距顶部和底部3个像素，左右扩充80个像素 -->
+    
 
     <CheckBox
         android:id="@+id/rememberPassword"
@@ -41,6 +41,7 @@
         android:layout_alignBottom="@+id/rememberPassword"
         android:layout_alignRight="@+id/linearLayout1"
         android:layout_marginRight="14dp"
+        android:checked="true"
         android:text="自动登录"
         android:textColor="#000000" />
 
