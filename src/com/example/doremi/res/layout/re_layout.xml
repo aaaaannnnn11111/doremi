@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/apply_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:background="#f2b73f"
+        android:text="义工报名" />
+
+    <Button
+        android:id="@+id/applyClass_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/apply_button"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/apply_button"
+        android:layout_marginTop="26dp"
+        android:background="#b3d8e8"
+        android:text="报班学琴" />
+
+    <Button
+        android:id="@+id/chain_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/applyClass_button"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/applyClass_button"
+        android:layout_marginTop="26dp"
+        android:background="#9aba4b"
+        android:text="尤克里里" />
+
+    <Button
+        android:id="@+id/join_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/chain_button"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/chain_button"
+        android:layout_marginTop="36dp"
+        android:background="#f9bbb8"
+        android:text="路演加盟" />
+
+    <Button
+        android:id="@+id/music_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/join_button"
+        android:layout_marginTop="31dp"
+        android:text="音乐营" />
+
+</RelativeLayout>
