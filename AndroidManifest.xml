@@ -91,6 +91,11 @@
             android:name=".MoreActivity"
             android:label="@string/title_activity_more" >
         </activity>
+   
+        <activity
+            android:name="com.example.doremi.dooo.VideoActivity"
+            android:label="@string/title_activity_video" >
+        </activity>
     </application>
 
 </manifest>
