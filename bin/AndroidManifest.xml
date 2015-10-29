@@ -71,6 +71,22 @@
             android:name=".AboutActivity"
             android:label="@string/title_activity_about" >
         </activity>
+        <activity
+            android:name=".re.ApplyActivity"
+            android:label="@string/title_activity_apply" >
+        </activity>
+        <activity
+            android:name=".re.ApplyClassActivity"
+            android:label="@string/title_activity_apply_class" >
+        </activity>
+        <activity
+            android:name=".re.UkllActivity"
+            android:label="@string/title_activity_ukll" >
+        </activity>
+        <activity
+            android:name=".UkllActivity"
+            android:label="@string/title_activity_ukll" >
+        </activity>
     </application>
 
 </manifest>

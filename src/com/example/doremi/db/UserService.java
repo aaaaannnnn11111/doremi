@@ -7,8 +7,10 @@ import android.database.sqlite.SQLiteDatabase;
 
 public class UserService {
 	private DatabaseHelper dbHelper;
+	private ApplyDatabaseHelper adbHelper;
 	public UserService(Context context){
 		dbHelper=new DatabaseHelper(context);
+		adbHelper=new ApplyDatabaseHelper(context);
 	}
 	
 	//登录用
@@ -29,6 +31,14 @@ public class UserService {
 		SQLiteDatabase sdb=dbHelper.getReadableDatabase();
 		String sql="insert into user(username,password,sex) values(?,?,?)";
 		Object obj[]={user.getUsername(),user.getPassword()};
+		sdb.execSQL(sql, obj);	
+		return true;
+	}
+	//义工报名用
+	public boolean apply(ApplyUser applyuser){
+		SQLiteDatabase sdb=adbHelper.getReadableDatabase();
+		String sql="insert into applyuser(name,phone,age,sex) values(?,?,?,?)";
+		Object obj[]={applyuser.getUsername(),applyuser.getPhone()};
 		sdb.execSQL(sql, obj);	
 		return true;
 	}

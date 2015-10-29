@@ -8,9 +8,9 @@
     <string name="action_settings">设置</string>
     <string name="action_feed">客户反馈</string>
     <string name="hello_world">hello world!</string>
-    <string name="tab_do">哆</string>
-    <string name="tab_re">唻</string>
-    <string name="tab_mi">咪</string>
+    <string name="tab_do">资讯</string>
+    <string name="tab_re">加入我们</string>
+    <string name="tab_mi">音乐课堂</string>
     <string name="tab_person">个人中心</string>
     <string name="title_activity_login">登录</string>
     <string name="title_activity_register">注册</string>
@@ -29,7 +29,10 @@
 
     <!-- FeedBack End -->
 
-    <string name="title_activity_about">AboutActivity</string>
-    <string name="title_activity_service">ServiceActivity</string>
+    <string name="title_activity_about">关于doremi</string>
+    <string name="title_activity_service">在线客服</string>
+    <string name="title_activity_apply">义工报名</string>
+    <string name="title_activity_apply_class">报班学琴</string>
+    <string name="title_activity_ukll">尤克里里</string>
 
 </resources>

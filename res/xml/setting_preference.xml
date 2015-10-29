@@ -3,7 +3,7 @@
 	xmlns:android="http://schemas.android.com/apk/res/android">
 	
     <PreferenceCategory android:title="音效设置"> 
-        <CheckBoxPreference android:key="CheckBox1" android:title="声音" android:summaryOn="开启" android:defaultValue="true" />     
+        <CheckBoxPreference android:key="sound" android:title="声音" android:summaryOn="开启" android:defaultValue="true" />     
     </PreferenceCategory>
     
     <PreferenceCategory android:title="功能设置">	
@@ -15,21 +15,25 @@
     </PreferenceCategory>
     
     <PreferenceCategory android:title="缓存设置" >  
-        <PreferenceScreen android:key="clean" 
+        <Preference android:key="clean" 
             android:title="清除缓存">
-        </PreferenceScreen>
+        </Preference>
     </PreferenceCategory>
     
     <PreferenceCategory android:title="其他设置">
-        <PreferenceScreen android:key="newVersion" 
+        <Preference android:key="newVersion" 
             android:title="新版本检测"  
          android:summary="检测是否有新版本">
-        </PreferenceScreen>
+        </Preference>
  
         <PreferenceScreen android:key="about" 
             android:title="关于我们"  
-        android:summary="关于我们、版权信息">
+        android:summary="关于doremi的详细信息">
             <intent android:targetPackage="com.example.doremi" android:targetClass="com.example.doremi.AboutActivity" />
         </PreferenceScreen>
+         <Preference android:key="exit" 
+            android:title="退出当前账号"  >
+        </Preference>
     </PreferenceCategory>
+    
 </PreferenceScreen>
