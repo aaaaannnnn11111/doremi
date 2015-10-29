@@ -6,16 +6,16 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content" >
 
-      <LinearLayout android:id="@+id/linearLayout1"  
+      <RelativeLayout 
+          android:id="@+id/relativeLayout1"  
         android:layout_width="fill_parent" 
-        android:layout_height="wrap_content"  
-        android:orientation="vertical">
+        android:layout_height="wrap_content"  >
      
        <TableLayout
             android:id="@+id/miInfo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:stretchColumns="1" >
+            android:stretchColumns="0" >
 
             <TableRow>
             <TextView
@@ -24,11 +24,24 @@
                 android:layout_height="wrap_content"
                 android:padding="5dip"
                 android:text="第一课：持 琴"
-                android:textColor="#d2cfe0" />
-            
-    
-            </TableRow>
+                android:textColor="#000000"
+                android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/mimore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:text="歌谱>> " />
+
+            </TableRow>
+            </TableLayout>
+<TableLayout
+            android:id="@+id/miInfop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/miInfo"
+            android:stretchColumns="1" >
             <TableRow>
 
               <ImageButton
@@ -47,6 +60,7 @@
             android:id="@+id/miInfo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_below="@id/miInfop"
             android:stretchColumns="1" >
 
             <TableRow>
@@ -56,7 +70,8 @@
                 android:layout_height="wrap_content"
                 android:padding="5dip"
                 android:text="第二课：识 琴"
-                android:textColor="#d2cfe0" />
+                android:textColor="#000000"
+                android:textStyle="bold" />
             
     
             </TableRow>
@@ -66,11 +81,11 @@
               <ImageButton
                 android:id="@+id/imageButton2"
                  android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignLeft="@+id/two"
-                        android:layout_below="@+id/two"
+                android:layout_height="wrap_content"
+                 android:layout_alignLeft="@+id/two"
+                 android:layout_below="@+id/two"
                         android:padding="3dip"
-                        android:src="@drawable/posture" />
+                        android:src="@drawable/know" />
               
                 </TableRow>
         </TableLayout>
@@ -78,8 +93,8 @@
           <TableLayout
             android:id="@+id/miInfo2"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:stretchColumns="1" >
+            android:layout_height="wrap_content" 
+            android:layout_below="@+id/miInfo1">
 
             <TableRow>
             <TextView
@@ -87,8 +102,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="5dip"
-                android:text="第二课：识 琴"
-                android:textColor="#d2cfe0" />
+                android:text="第三课：识和弦图"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
             
     
             </TableRow>
@@ -97,30 +113,58 @@
 
               <ImageButton
                 android:id="@+id/imageButton3"
-                 android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignLeft="@+id/three"
-                        android:layout_below="@+id/three"
-                        android:padding="3dip"
-                        android:src="@drawable/posture" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:src="@drawable/chord" />
               
                 </TableRow>
+         </TableLayout>
+
+           <TableLayout
+            android:id="@+id/miInfo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_below="@+id/miInfo2">
+            <TableRow>
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_weight="1"
+                    android:src="@drawable/chord_c" />
+
+                <ImageView
+                    android:id="@+id/imageView333"
+                    android:layout_weight="1"
+                    android:src="@drawable/chord_am" />
+                <ImageView
+                    android:id="@+id/imageView3333"
+                    android:layout_weight="1"
+                    android:src="@drawable/chord_f" />
+                <ImageView
+                    android:id="@+id/imageView33333"
+                    android:layout_weight="1"
+                    android:src="@drawable/chord_g7" />
+            </TableRow>
+
         </TableLayout>
         
             <TableLayout
-            android:id="@+id/miInfo3"
+            android:id="@+id/miInfo4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:stretchColumns="1" >
+            android:layout_below="@+id/miInfo3" >
 
             <TableRow>
             <TextView
                 android:id="@+id/four"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                
                 android:padding="5dip"
-                android:text="第二课：识 琴"
-                android:textColor="#d2cfe0" />
+                android:text="第四课：如何调音"
+                android:textColor="#000000"
+                android:textStyle="bold" />
             
     
             </TableRow>
@@ -134,10 +178,44 @@
                         android:layout_alignLeft="@+id/four"
                         android:layout_below="@+id/four"
                         android:padding="3dip"
-                        android:src="@drawable/posture" />
+                        android:src="@drawable/change" />
               
                 </TableRow>
         </TableLayout>
-</LinearLayout>
+        
+             <TableLayout
+            android:id="@+id/miInfo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/miInfo4" >
+
+            <TableRow>
+            <TextView
+                android:id="@+id/five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                
+                android:padding="5dip"
+                android:text="第五课：C调音阶在Ukulele指板上的位置"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+            
+    
+            </TableRow>
+
+            <TableRow>
+
+              <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/five"
+                android:layout_below="@+id/fIve"
+                android:padding="3dip"
+                android:src="@drawable/set" />
+              
+                </TableRow>
+        </TableLayout>
+</RelativeLayout>
 
  </ScrollView>
