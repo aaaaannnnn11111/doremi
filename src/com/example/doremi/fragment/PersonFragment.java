@@ -32,7 +32,7 @@ import android.widget.SimpleAdapter;
 public class PersonFragment extends ListFragment {
 	private ListView list;
 	private Button login_button;
-	private String[] values = new String[] { "我的收藏","我的下载","我的团队","我的捐款" };  
+	private String[] values = new String[] { "我的信息","我的活动","我的团队","我的捐款" };  
 	private int[] images = new int[] { R.drawable.person,  R.drawable.person, R.drawable.person,R.drawable.person }; 
     
     
