@@ -28,7 +28,7 @@
  
         <PreferenceScreen android:key="about" 
             android:title="关于我们"  
-        android:summary="关于我们、版权信息">
+        android:summary="关于doremi的详细信息">
             <intent android:targetPackage="com.example.doremi" android:targetClass="com.example.doremi.AboutActivity" />
         </PreferenceScreen>
          <Preference android:key="exit" 

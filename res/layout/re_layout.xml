@@ -23,7 +23,7 @@
         android:layout_below="@+id/apply_button"
         android:layout_marginTop="26dp"
         android:background="#b3d8e8"
-        android:text="报班" />
+        android:text="报班学琴" />
 
     <Button
         android:id="@+id/chain_button"
